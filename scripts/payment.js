@@ -4,6 +4,6 @@
   var TO_WORK_ON_DIV = "[data-onsubmit-pop='Thank']";
   var App = window.App;
   var FormHandler = App.FormHandler;
-  var formHandler = new FormHandler(TO_WORK_ON_DIV);
-  formHandler.addSubmitHandler(function() {});
+  var formHandler = new FormHandler(FORM_SELECTOR);
+  formHandler.addSubmitHandler(TO_WORK_ON_DIV);
 })(window);
